@@ -1,10 +1,10 @@
 
-;;; Argh_Why-theme.el --- Emacs theme with a dark background.
+;;; Arg_Why-theme.el --- Emacs theme with a dark background.
 
-;; Copyright (C) 2014 , LambdaScience
+;; Copyright (C) 2014 , LambdaScientist
 
-;; Author: LambdaScience
-;; https://github.com/LambdaScientist
+;; Author: LambdaScientist
+;; https://github.com/LambdaScientist/EmacsTheme
 ;; Version: 0.1
 ;; Package-Requires: ((emacs "24"))
 ;; Created with emacs-theme-generator, https://github.com/mswift42/theme-creator.
@@ -29,29 +29,29 @@
 
 ;;; Code:
 
- (deftheme Argh_Why)
+ (deftheme Arg_Why)
  (let ((class '((class color) (min-colors 89)))
-       (fg1 "#6966ff")
-       (fg2 "#615ee8")
-       (fg3 "#5a55d2")
-       (fg4 "#524dbc")
-       (bg1 "#0e0e38")
-       (bg2 "#211e46")
-       (bg3 "#332e55")
-       (bg4 "#453f64")
-       (key2 "#53e264")
-       (key3 "#28c347")
-       (builtin "#54686d")
-       (keyword "#26de4f")
-       (const   "#ffffff")
-       (comment "#0009f2")
-       (func    "#bab700")
-       (str     "#ff00b6")
-       (type    "#a900c4")
-       (var     "#ff7a00")
+       (fg1 "#ff7a00")
+       (fg2 "#e87006")
+       (fg3 "#d2660b")
+       (fg4 "#bd5c0e")
+       (bg1 "#12005c")
+       (bg2 "#2c1369")
+       (bg3 "#402675")
+       (bg4 "#533882")
+       (key2 "#e3ff40")
+       (key3 "#c2df10")
+       (builtin "#696cff")
+       (keyword "#ddff00")
+       (const   "#00a7ff")
+       (comment "#bdbdbd")
+       (func    "#ff00b8")
+       (str     "#ad00ff")
+       (type    "#9eff00")
+       (var     "#00ff29")
        (warning "#ff0000"))
    (custom-theme-set-faces
-   'Argh_Why
+   'Arg_Why
         `(default ((,class (:background ,bg1 :foreground ,fg1))))
         `(font-lock-builtin-face ((,class (:foreground ,builtin))))
         `(font-lock-comment-face ((,class (:foreground ,comment))))
@@ -247,10 +247,10 @@
   (add-to-list 'custom-theme-load-path
                (file-name-as-directory (file-name-directory load-file-name))))
 
-(provide-theme 'Argh_Why)
+(provide-theme 'Arg_Why)
 
 ;; Local Variables:
 ;; no-byte-compile: t
 ;; End:
 
-;;; Argh_Why-theme.el ends here
+;;; Arg_Why-theme.el ends here
